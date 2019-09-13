@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+        <script type="text/javascript">
+        function sayHello(name, age)
+        {
+            document.write (name + " is " + age + " years old.");
+        }
+        </script>
     </head>
     <body>
-        
+        <p>Clique no botão a seguir para chamar a função</p>
+        <form>
+            <input type="button" onclick="sayHello('Zara', 7)" value="Say Hello">
+        </form>
+
+        <p>Use parâmetros diferentes dentro da função e tente...</p>
+
     </body>
 </html>
