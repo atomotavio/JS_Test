@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">
+            function concatenate (first, last)
+            {
+                var full;
+                full = first + last;
+                return full;
+            }
+
+            function secondFunction ()
+            {
+                var result;
+                result = concatenate('Zara ', 'Ali');
+                document.write (result);
+            }
+        </script>
+
+    </head>
+    <body>
+        <p>Clique no botão a seguir para chamar a função</p>
+        <form>
+            <input type="button" onclick="secondFunction()"
+            value="Call Function">
+        </form>
+
+        <p>Use parametros diferentes dentro da função e tente...</p>
+
+    </body>
+</html>
